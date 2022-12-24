@@ -6,24 +6,87 @@
     <title>Hello !</title>
     <style>
         body{
-            color: rgb(165, 42, 89);
-            text-align: center;
-            font-size: 18px;
+            color: rgb(20, 20, 20);
+            padding: 20px;
+            margin: 20px;
+            font-size: 43px;
             font-weight: bold;
+            background-image: url(https://w0.peakpx.com/wallpaper/866/66/HD-wallpaper-ghibli-anime-totoro.jpg);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .baz{
-            color: blue;
-            font-size: 23px;
+            color: rgb(21, 161, 204);
+            font-size: 43px;
             text-align: center;
             font-weight: bold;
+            margin: 20px;
+            padding: 20px;
         }
+        .tengis{
+            font-size: 23px;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+        .tengis2{
+            font-size: 23px;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+        button{
+                width: 200px;
+                height: 50px;
+                font-size: 20px;
+                background: white;
+                font-family: 'Times New Roman', Times, serif;
+
+            }
+            button:hover{
+                background-color: rgb(230, 13, 13);
+            }
+    
     </style>
 </head>
 <body>
-    Hello Programm!
-<h1 style="color: red;">Hugjuulneeee</h1>
-<h1 class="baz"> This is second my Page</h1>
-<img src="cat.jpg" alt="cat" width="300">
+    Ghibli vlog
+    <Button>START TO GHIBLI</Button>
+<h1 class="baz" style="color: rgb(23, 22, 24);">Enkhbaatar Tengis</h1>
+<h1 class="baz"> WELCOME TO MY FIRST PAGE</h1>
+<div class="tengis">
+    <ol>
+        <li>First list</li>
+        <li>Second list</li>
+        <li>Third list</li>
+    </ol>
+    <ul>
+        <li>Pick up</li>
+        <li>take up</li>
+    </ul>
+</div>
+<form class="tengis2">
+    <div>
+        <input name="name" type="text" placeholder="Name" >
+        <input name="password" type="password" placeholder="Password" >
+    </div>
+    <div>
+        Favorite color?
+        <input name="color" type="radio" value="red" placeholder="color"> red
+        <input name="color" type="radio" value="green" placeholder="color"> green
+        <input name="color" type="radio" value="blue" placeholder="color"> blue
+        <input name="color" type="radio" value="other" placeholder="color"> other
+    </div>
+    <div>
+        <input name="country" list="countries" placeholder="Country" >
+        <datalist id="countries">
+            <option value="Afghanistan">
+                <option value="Mongolia">
+               
+          
+        </datalist>
+    </div>
+ </form>
 </body>
 </html>
